@@ -1,0 +1,51 @@
+@import url("http://fonts.googleapis.com/css?family=Josefin+Slab:100,300,400,600,700");
+@import url("http://fonts.googleapis.com/css?family=Lato:300,400,700");
+body {
+  margin: -10px 0 0 0; }
+
+.feed {
+  margin-top: 30px; }
+
+.logo {
+  font-family: 'Lato';
+  font-weight: 700;
+  font-size: 6.6em;
+  color: #e6e6e6;
+  margin-top: 5px;
+  left: 0; }
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 5px 0;
+  line-height: 0.8em;
+  margin-top: 40px; }
+
+.news-item a {
+  text-decoration: none; }
+.news-item h1 {
+  font-family: 'Josefin Slab';
+  font-weight: 400;
+  font-size: 2.8em; }
+.news-item .blue {
+  color: #01BCE5; }
+.news-item .red {
+  color: #D26368; }
+.news-item .green {
+  color: #C3D649; }
+.news-item .orange {
+  color: #F99D3F; }
+.news-item .purple {
+  color: #bf63d2; }
+
+span.news-item-details {
+  opacity: 0;
+  margin: 50px 0 0 0; }
+  span.news-item-details p {
+    display: inline;
+    font-family: 'Lato';
+    font-weight: 300;
+    margin-right: 25px; }
+
+.news-item:hover .news-item-details {
+  opacity: 1; }
+
+/*# sourceMappingURL=layout.css.map */
